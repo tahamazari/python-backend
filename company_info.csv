@@ -1,41 +1,41 @@
-company_url,company_name,company_industry,company_revenue,company_country
-https://company1.com,TechCorp,Technology,$5 Billion,USA
-https://company2.com,HealthWorks,Healthcare,$2 Billion,USA
-https://company3.com,FinServe,Finance,$3 Billion,UK
-https://company4.com,OilCo,Oil & Gas,$10 Billion,UAE
-https://company5.com,GreenEnergy,Energy,$1.5 Billion,Germany
-https://company6.com,AISolutions,Technology,$4 Billion,Japan
-https://company7.com,AutoMakers,Automotive,$7 Billion,USA
-https://company8.com,BlockChainTech,Finance,$500 Million,Switzerland
-https://company9.com,AgriCo,Agriculture,$900 Million,France
-https://company10.com,Edutech,Education,$1 Billion,Australia
-https://company11.com,MedTech,Healthcare,$6 Billion,USA
-https://company12.com,BioHealth,Healthcare,$4.2 Billion,Germany
-https://company13.com,TechInnovators,Technology,$8 Billion,UK
-https://company14.com,FoodPlus,Agriculture,$1.2 Billion,Brazil
-https://company15.com,WindPower,Energy,$2.3 Billion,Denmark
-https://company16.com,DigitalFinance,Finance,$3.5 Billion,USA
-https://company17.com,SmartVehicles,Automotive,$4.5 Billion,Germany
-https://company18.com,PharmaLife,Healthcare,$2.8 Billion,India
-https://company19.com,OilWorld,Oil & Gas,$15 Billion,Russia
-https://company20.com,CleanTech,Energy,$600 Million,Canada
-https://company21.com,AgroWorld,Agriculture,$1.1 Billion,Argentina
-https://company22.com,FinTechGlobal,Finance,$2.9 Billion,Hong Kong
-https://company23.com,ElectricAutos,Automotive,$3.8 Billion,China
-https://company24.com,TelecomNet,Telecommunications,$7.3 Billion,USA
-https://company25.com,HealthPro,Healthcare,$5.5 Billion,Australia
-https://company26.com,AgriSolutions,Agriculture,$800 Million,Kenya
-https://company27.com,EcoEnergy,Energy,$2 Billion,Norway
-https://company28.com,TechVentures,Technology,$6 Billion,South Korea
-https://company29.com,SmartAgriculture,Agriculture,$950 Million,Netherlands
-https://company30.com,GreenGas,Energy,$1.7 Billion,New Zealand
-https://company31.com,AutoFuture,Automotive,$5 Billion,Italy
-https://company32.com,InnovateTech,Technology,$9 Billion,Canada
-https://company33.com,HealthFirst,Healthcare,$3.3 Billion,South Africa
-https://company34.com,FinancialEdge,Finance,$2.5 Billion,Singapore
-https://company35.com,EnergyNow,Energy,$1.8 Billion,United Kingdom
-https://company36.com,OilGlobal,Oil & Gas,$12 Billion,Saudi Arabia
-https://company37.com,FarmersChoice,Agriculture,$700 Million,Mexico
-https://company38.com,SmartEnergy,Energy,$2.6 Billion,Spain
-https://company39.com,TechWave,Technology,$4.8 Billion,Israel
-https://company40.com,PharmaCare,Healthcare,$3.7 Billion,Belgium
+id,company_url,company_name,company_industry,company_revenue,company_country
+a1b2c,https://company1.com,TechCorp,Technology,$5 Billion,USA
+d3e4f,https://company2.com,HealthWorks,Healthcare,$2 Billion,USA
+g5h6i,https://company3.com,FinServe,Finance,$3 Billion,UK
+j7k8l,https://company4.com,OilCo,Oil & Gas,$10 Billion,UAE
+m9n0o,https://company5.com,GreenEnergy,Energy,$1.5 Billion,Germany
+p1q2r,https://company6.com,AISolutions,Technology,$4 Billion,Japan
+s3t4u,https://company7.com,AutoMakers,Automotive,$7 Billion,USA
+v5w6x,https://company8.com,BlockChainTech,Finance,$500 Million,Switzerland
+y7z8a,https://company9.com,AgriCo,Agriculture,$900 Million,France
+b1c2d,https://company10.com,Edutech,Education,$1 Billion,Australia
+e3f4g,https://company11.com,MedTech,Healthcare,$6 Billion,USA
+h5i6j,https://company12.com,BioHealth,Healthcare,$4.2 Billion,Germany
+k7l8m,https://company13.com,TechInnovators,Technology,$8 Billion,UK
+n9o0p,https://company14.com,FoodPlus,Agriculture,$1.2 Billion,Brazil
+q1r2s,https://company15.com,WindPower,Energy,$2.3 Billion,Denmark
+t3u4v,https://company16.com,DigitalFinance,Finance,$3.5 Billion,USA
+w5x6y,https://company17.com,SmartVehicles,Automotive,$4.5 Billion,Germany
+z7a8b,https://company18.com,PharmaLife,Healthcare,$2.8 Billion,India
+c1d2e,https://company19.com,OilWorld,Oil & Gas,$15 Billion,Russia
+f3g4h,https://company20.com,CleanTech,Energy,$600 Million,Canada
+i5j6k,https://company21.com,AgroWorld,Agriculture,$1.1 Billion,Argentina
+l7m8n,https://company22.com,FinTechGlobal,Finance,$2.9 Billion,Hong Kong
+o9p0q,https://company23.com,ElectricAutos,Automotive,$3.8 Billion,China
+r1s2t,https://company24.com,TelecomNet,Telecommunications,$7.3 Billion,USA
+u3v4w,https://company25.com,HealthPro,Healthcare,$5.5 Billion,Australia
+x5y6z,https://company26.com,AgriSolutions,Agriculture,$800 Million,Kenya
+a7b8c,https://company27.com,EcoEnergy,Energy,$2 Billion,Norway
+d9e0f,https://company28.com,TechVentures,Technology,$6 Billion,South Korea
+g1h2i,https://company29.com,SmartAgriculture,Agriculture,$950 Million,Netherlands
+j3k4l,https://company30.com,GreenGas,Energy,$1.7 Billion,New Zealand
+m5n6o,https://company31.com,AutoFuture,Automotive,$5 Billion,Italy
+p7q8r,https://company32.com,InnovateTech,Technology,$9 Billion,Canada
+s9t0u,https://company33.com,HealthFirst,Healthcare,$3.3 Billion,South Africa
+v1w2x,https://company34.com,FinancialEdge,Finance,$2.5 Billion,Singapore
+y3z4a,https://company35.com,EnergyNow,Energy,$1.8 Billion,United Kingdom
+b5c6d,https://company36.com,OilGlobal,Oil & Gas,$12 Billion,Saudi Arabia
+e7f8g,https://company37.com,FarmersChoice,Agriculture,$700 Million,Mexico
+h9i0j,https://company38.com,SmartEnergy,Energy,$2.6 Billion,Spain
+k1l2m,https://company39.com,TechWave,Technology,$4.8 Billion,USA
+n3o4p,https://company40.com,PharmaCare,Healthcare,$3.7 Billion,Belgium

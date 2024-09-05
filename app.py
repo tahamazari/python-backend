@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from main import getFilteredData
+from main import getFilteredDataMultiple
 
 app = Flask(__name__)
 CORS(app)
@@ -10,7 +10,7 @@ def process_data():
     data = request.json  # Parse the JSON data from the request body
 
     # Pass the entire data to getFilteredData
-    response = getFilteredData(data)
+    response = getFilteredDataMultiple(data)
 
     # Return the processed data as JSON
     return jsonify(response)

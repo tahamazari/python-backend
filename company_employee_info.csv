@@ -1,41 +1,81 @@
-company_url,person_id,person_first_name,person_last_name,person_email,person_city,person_country,person_seniority,person_department
-https://company1.com,1,John,Doe,john.doe@techcorp.com,San Francisco,USA,Director,Engineering
-https://company2.com,2,Jane,Smith,jane.smith@healthworks.com,New York,USA,Manager,Marketing
-https://company3.com,3,Emily,Jones,emily.jones@finserve.co.uk,London,UK,Executive,Finance
-https://company4.com,4,Michael,Brown,michael.brown@oilco.ae,Dubai,UAE,Director,Operations
-https://company5.com,5,Olivia,Johnson,olivia.johnson@greenenergy.de,Berlin,Germany,Manager,Product
-https://company6.com,6,Liam,Williams,liam.williams@aisolutions.jp,Tokyo,Japan,Engineer,AI Research
-https://company7.com,7,Noah,Davis,noah.davis@automakers.com,Detroit,USA,Senior Engineer,Manufacturing
-https://company8.com,8,Emma,Martinez,emma.martinez@blockchaintech.ch,Zug,Switzerland,Executive,Blockchain Development
-https://company9.com,9,Ava,Garcia,ava.garcia@agrico.fr,Paris,France,Director,Agriculture
-https://company10.com,10,William,Wilson,william.wilson@edutech.au,Sydney,Australia,Manager,Education
-https://company11.com,11,James,Moore,james.moore@medtech.com,Boston,USA,Engineer,Biomedical
-https://company12.com,12,Isabella,Taylor,isabella.taylor@biohealth.de,Berlin,Germany,Scientist,Biotechnology
-https://company13.com,13,Ethan,Anderson,ethan.anderson@techinnovators.co.uk,London,UK,Senior Manager,Innovation
-https://company14.com,14,Charlotte,Thomas,charlotte.thomas@foodplus.br,Sao Paulo,Brazil,Manager,Food Technology
-https://company15.com,15,Benjamin,Lee,benjamin.lee@windpower.dk,Copenhagen,Denmark,Engineer,Energy
-https://company16.com,16,Sophia,White,sophia.white@digitalfinance.com,New York,USA,Director,Digital Finance
-https://company17.com,17,Mason,Harris,mason.harris@smartvehicles.de,Berlin,Germany,Engineer,Autonomous Vehicles
-https://company18.com,18,Elijah,Martin,elijah.martin@pharmalife.in,Mumbai,India,Executive,Pharmaceuticals
-https://company19.com,19,Logan,Thompson,logan.thompson@oilworld.ru,Moscow,Russia,Senior Manager,Oil & Gas
-https://company20.com,20,Zoe,Clark,zoe.clark@cleantech.ca,Toronto,Canada,Manager,Clean Technology
-https://company21.com,21,Lucas,Lewis,lucas.lewis@agroworld.ar,Buenos Aires,Argentina,Engineer,Agriculture
-https://company22.com,22,Mia,Walker,mia.walker@fintechglobal.hk,Hong Kong,Hong Kong,Manager,Fintech
-https://company23.com,23,Alexander,Scott,alexander.scott@electricautos.cn,Shanghai,China,Senior Engineer,Electric Vehicles
-https://company24.com,24,Amelia,Young,amelia.young@telecomnet.com,Dallas,USA,Engineer,Telecommunications
-https://company25.com,25,Daniel,King,daniel.king@healthpro.au,Sydney,Australia,Scientist,Health Research
-https://company26.com,26,Ella,Green,ella.green@agrisolutions.ke,Nairobi,Kenya,Manager,Agriculture Solutions
-https://company27.com,27,Henry,Baker,henry.baker@ecoenergy.no,Oslo,Norway,Engineer,Renewable Energy
-https://company28.com,28,Jack,Nelson,jack.nelson@techventures.kr,Seoul,South Korea,Director,Tech Ventures
-https://company29.com,29,Grace,Carter,grace.carter@smartagriculture.nl,Amsterdam,Netherlands,Scientist,Agriculture Technology
-https://company30.com,30,Sebastian,Mitchell,sebastian.mitchell@greengas.nz,Auckland,New Zealand,Engineer,Green Energy
-https://company31.com,31,Aiden,Perez,aiden.perez@autofuture.it,Milan,Italy,Senior Engineer,Automotive
-https://company32.com,32,Harper,Rogers,harper.rogers@innovatetech.ca,Toronto,Canada,Engineer,Innovation
-https://company33.com,33,Levi,Reed,levi.reed@healthfirst.co.za,Cape Town,South Africa,Scientist,Health Technology
-https://company34.com,34,Violet,Diaz,violet.diaz@financialedge.sg,Singapore,Singapore,Manager,Financial Services
-https://company35.com,35,Matthew,Murphy,matthew.murphy@energynow.co.uk,London,United Kingdom,Engineer,Energy
-https://company36.com,36,Eleanor,Hughes,eleanor.hughes@oilglobal.sa,Riyadh,Saudi Arabia,Manager,Oil & Gas
-https://company37.com,37,Joseph,Watson,joseph.watson@farmerschoice.mx,Mexico City,Mexico,Engineer,Agriculture
-https://company38.com,38,David,Bell,david.bell@smartenergy.es,Madrid,Spain,Scientist,Energy Solutions
-https://company39.com,39,Hannah,Ross,hannah.ross@techwave.co.il,Tel Aviv,Israel,Engineer,Tech Development
-https://company40.com,40,Lillian,Cox,lillian.cox@pharmacare.be,Brussels,Belgium,Scientist,Pharmaceuticals
+company_url,id,person_first_name,person_last_name,person_email,person_city,person_country,person_seniority,person_department
+https://company1.com,a1b2c,John,Doe,john.doe@techcorp.com,San Francisco,USA,Director,Engineering
+https://company1.com,d3e4f,Jane,Smith,jane.smith@techcorp.com,San Francisco,USA,Manager,Engineering
+https://company2.com,g5h6i,Emily,Jones,emily.jones@healthworks.com,New York,USA,Manager,Marketing
+https://company2.com,j7k8l,Michael,Brown,michael.brown@healthworks.com,New York,USA,Executive,Marketing
+https://company3.com,m9n0o,Olivia,Johnson,olivia.johnson@finserve.co.uk,London,UK,Executive,Finance
+https://company3.com,p1q2r,Liam,Williams,liam.williams@finserve.co.uk,London,UK,Manager,Finance
+https://company4.com,s3t4u,Noah,Davis,noah.davis@oilco.ae,Dubai,UAE,Director,Operations
+https://company4.com,v5w6x,Emma,Martinez,emma.martinez@oilco.ae,Dubai,UAE,Manager,Operations
+https://company5.com,y7z8a,William,Wilson,william.wilson@greenenergy.de,Berlin,Germany,Manager,Product
+https://company5.com,b1c2d,Isabella,Taylor,isabella.taylor@greenenergy.de,Berlin,Germany,Scientist,Product
+https://company6.com,e3f4g,Liam,Williams,liam.williams@aisolutions.jp,Tokyo,Japan,Engineer,AI Research
+https://company6.com,h5i6j,Emily,Jones,emily.jones@aisolutions.jp,Tokyo,Japan,Senior Engineer,AI Research
+https://company7.com,k7l8m,Noah,Davis,noah.davis@automakers.com,Detroit,USA,Senior Engineer,Manufacturing
+https://company7.com,n9o0p,Charlotte,Thomas,charlotte.thomas@automakers.com,Detroit,USA,Manager,Manufacturing
+https://company8.com,q1r2s,Emma,Martinez,emma.martinez@blockchaintech.ch,Zug,Switzerland,Executive,Blockchain Development
+https://company8.com,t3u4v,Elijah,Martin,elijah.martin@blockchaintech.ch,Zug,Switzerland,Manager,Blockchain Development
+https://company9.com,v5w6x,Ava,Garcia,ava.garcia@agrico.fr,Paris,France,Director,Agriculture
+https://company9.com,y7z8a,Daniel,King,daniel.king@agrico.fr,Paris,France,Manager,Agriculture
+https://company10.com,b1c2d,William,Wilson,william.wilson@edutech.au,Sydney,Australia,Manager,Education
+https://company10.com,c3d4e,Ella,Green,ella.green@edutech.au,Sydney,Australia,Scientist,Education
+https://company11.com,f5g6h,James,Moore,james.moore@medtech.com,Boston,USA,Engineer,Biomedical
+https://company11.com,i7j8k,Sophia,White,sophia.white@medtech.com,Boston,USA,Manager,Biomedical
+https://company12.com,j9k0l,Isabella,Taylor,isabella.taylor@biohealth.de,Berlin,Germany,Scientist,Biotechnology
+https://company12.com,m1n2o,Henry,Baker,henry.baker@biohealth.de,Berlin,Germany,Scientist,Biotechnology
+https://company13.com,p3q4r,Ethan,Anderson,ethan.anderson@techinnovators.co.uk,London,UK,Senior Manager,Innovation
+https://company13.com,s5t6u,Grace,Carter,grace.carter@techinnovators.co.uk,London,UK,Manager,Innovation
+https://company14.com,v7w8x,Charlotte,Thomas,charlotte.thomas@foodplus.br,Sao Paulo,Brazil,Manager,Food Technology
+https://company14.com,y9z0a,Benjamin,Lee,benjamin.lee@foodplus.br,Sao Paulo,Brazil,Executive,Food Technology
+https://company15.com,c1d2e,Benjamin,Lee,benjamin.lee@windpower.dk,Copenhagen,Denmark,Engineer,Energy
+https://company15.com,f3g4h,Olivia,Johnson,olivia.johnson@windpower.dk,Copenhagen,Denmark,Senior Engineer,Energy
+https://company16.com,i5j6k,Sophia,White,sophia.white@digitalfinance.com,New York,USA,Director,Digital Finance
+https://company16.com,j7k8l,Matthew,Murphy,matthew.murphy@digitalfinance.com,New York,USA,Manager,Digital Finance
+https://company17.com,k9l0m,Mason,Harris,mason.harris@smartvehicles.de,Berlin,Germany,Engineer,Autonomous Vehicles
+https://company17.com,n1o2p,Emily,Jones,emily.jones@smartvehicles.de,Berlin,Germany,Senior Engineer,Autonomous Vehicles
+https://company18.com,q3r4s,Elijah,Martin,elijah.martin@pharmalife.in,Mumbai,India,Executive,Pharmaceuticals
+https://company18.com,t5u6v,Daniel,King,daniel.king@pharmalife.in,Mumbai,India,Manager,Pharmaceuticals
+https://company19.com,v7w8x,Logan,Thompson,logan.thompson@oilworld.ru,Moscow,Russia,Senior Manager,Oil & Gas
+https://company19.com,y9z0a,Charlotte,Thomas,charlotte.thomas@oilworld.ru,Moscow,Russia,Manager,Oil & Gas
+https://company20.com,c1d2e,Zoe,Clark,zoe.clark@cleantech.ca,Toronto,Canada,Manager,Clean Technology
+https://company20.com,f3g4h,Jack,Nelson,jack.nelson@cleantech.ca,Toronto,Canada,Engineer,Clean Technology
+https://company21.com,i5j6k,Lucas,Lewis,lucas.lewis@agroworld.ar,Buenos Aires,Argentina,Engineer,Agriculture
+https://company21.com,j7k8l,Amelia,Young,amelia.young@agroworld.ar,Buenos Aires,Argentina,Manager,Agriculture
+https://company22.com,k9l0m,Mia,Walker,mia.walker@fintechglobal.hk,Hong Kong,Hong Kong,Manager,Fintech
+https://company22.com,n1o2p,Alexander,Scott,alexander.scott@fintechglobal.hk,Hong Kong,Hong Kong,Executive,Fintech
+https://company23.com,q3r4s,Alexander,Scott,alexander.scott@electricautos.cn,Shanghai,China,Senior Engineer,Electric Vehicles
+https://company23.com,t5u6v,Ella,Green,ella.green@electricautos.cn,Shanghai,China,Manager,Electric Vehicles
+https://company24.com,v7w8x,Amelia,Young,amelia.young@telecomnet.com,Dallas,USA,Engineer,Telecommunications
+https://company24.com,y9z0a,David,Bell,david.bell@telecomnet.com,Dallas,USA,Senior Engineer,Telecommunications
+https://company25.com,c1d2e,Daniel,King,daniel.king@healthpro.au,Sydney,Australia,Scientist,Health Research
+https://company25.com,f3g4h,Ella,Green,ella.green@healthpro.au,Sydney,Australia,Manager,Health Research
+https://company26.com,i5j6k,Ella,Green,ella.green@agrisolutions.ke,Nairobi,Kenya,Manager,Agriculture Solutions
+https://company26.com,j7k8l,Henry,Baker,henry.baker@agrisolutions.ke,Nairobi,Kenya,Scientist,Agriculture Solutions
+https://company27.com,k9l0m,Henry,Baker,henry.baker@ecoenergy.no,Oslo,Norway,Engineer,Renewable Energy
+https://company27.com,n1o2p,Grace,Carter,grace.carter@ecoenergy.no,Oslo,Norway,Senior Engineer,Renewable Energy
+https://company28.com,q3r4s,Jack,Nelson,jack.nelson@techventures.kr,Seoul,South Korea,Director,Tech Ventures
+https://company28.com,t5u6v,Lucas,Lewis,lucas.lewis@techventures.kr,Seoul,South Korea,Manager,Tech Ventures
+https://company29.com,v7w8x,Grace,Carter,grace.carter@smartagriculture.nl,Amsterdam,Netherlands,Scientist,Agriculture Technology
+https://company29.com,y9z0a,Henry,Baker,henry.baker@smartagriculture.nl,Amsterdam,Netherlands,Manager,Agriculture Technology
+https://company30.com,c1d2e,Sebastian,Mitchell,sebastian.mitchell@greengas.nz,Auckland,New Zealand,Engineer,Green Energy
+https://company30.com,f3g4h,Isabella,Taylor,isabella.taylor@greengas.nz,Auckland,New Zealand,Manager,Green Energy
+https://company31.com,i5j6k,Aiden,Perez,aiden.perez@autofuture.it,Milan,Italy,Senior Engineer,Automotive
+https://company31.com,j7k8l,Sophia,White,sophia.white@autofuture.it,Milan,Italy,Manager,Automotive
+https://company32.com,k9l0m,Harper,Rogers,harper.rogers@innovatetech.ca,Toronto,Canada,Engineer,Innovation
+https://company32.com,n1o2p,Matthew,Murphy,matthew.murphy@innovatetech.ca,Toronto,Canada,Manager,Innovation
+https://company33.com,q3r4s,Levi,Reed,levi.reed@healthfirst.co.za,Cape Town,South Africa,Scientist,Health Technology
+https://company33.com,t5u6v,Amelia,Young,amelia.young@healthfirst.co.za,Cape Town,South Africa,Manager,Health Technology
+https://company34.com,v7w8x,Violet,Diaz,violet.diaz@financialedge.sg,Singapore,Singapore,Manager,Financial Services
+https://company34.com,y9z0a,David,Bell,david.bell@financialedge.sg,Singapore,Singapore,Senior Manager,Financial Services
+https://company35.com,c1d2e,Matthew,Murphy,matthew.murphy@energynow.co.uk,London,United Kingdom,Engineer,Energy
+https://company35.com,f3g4h,Ethan,Anderson,ethan.anderson@energynow.co.uk,London,United Kingdom,Manager,Energy
+https://company36.com,i5j6k,Eleanor,Hughes,eleanor.hughes@oilglobal.sa,Riyadh,Saudi Arabia,Manager,Oil & Gas
+https://company36.com,j7k8l,Levi,Reed,levi.reed@oilglobal.sa,Riyadh,Saugitdi Arabia,Senior Engineer,Oil & Gas
+https://company37.com,k9l0m,Joseph,Watson,joseph.watson@farmerschoice.mx,Mexico City,Mexico,Engineer,Agriculture
+https://company37.com,n1o2p,Ethan,Anderson,ethan.anderson@farmerschoice.mx,Mexico City,Mexico,Manager,Agriculture
+https://company38.com,q3r4s,David,Bell,david.bell@smartenergy.es,Madrid,Spain,Scientist,Energy Solutions
+https://company38.com,t5u6v,Sebastian,Mitchell,sebastian.mitchell@smartenergy.es,Madrid,Spain,Manager,Energy Solutions
+https://company39.com,v7w8x,Hannah,Ross,hannah.ross@techwave.co.il,Tel Aviv,Israel,Engineer,Tech Development
+https://company39.com,y9z0a,Levi,Reed,levi.reed@techwave.co.il,Tel Aviv,Israel,Manager,Tech Development
+https://company40.com,c1d2e,Lillian,Cox,lillian.cox@pharmacare.be,Brussels,Belgium,Scientist,Pharmaceuticals
+https://company40.com,f3g4h,Grace,Carter,grace.carter@pharmacare.be,Brussels,Belgium,Manager,Pharmaceuticals

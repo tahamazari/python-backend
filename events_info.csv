@@ -1,12 +1,12 @@
-event_url,event_name,event_start_date,event_city,event_country,event_industry
-https://event1.com,Tech Summit,2024-09-10,San Francisco,USA,Technology
-https://event2.com,Health Expo,2024-10-05,New York,USA,Healthcare
-https://event3.com,Finance Conference,2024-11-15,London,UK,Finance
-https://event4.com,Oil & Gas Meet,2024-12-01,Dubai,UAE,Oil & Gas
-https://event5.com,Renewable Energy Forum,2024-09-20,Berlin,Germany,Energy
-https://event6.com,AI & ML Conference,2024-11-01,Tokyo,Japan,Technology
-https://event7.com,Automotive Expo,2024-10-15,Detroit,USA,Automotive
-https://event8.com,Blockchain Summit,2024-09-25,Zug,Switzerland,Finance
-https://event9.com,Agriculture Fair,2024-10-10,Paris,France,Agriculture
-https://event10.com,Education Symposium,2024-09-30,Sydney,Australia,Education
-https://event11.com,IT Symposium,2024-09-30,Hong Kong,Hong Kong,Technology
+id,event_url,event_name,event_start_date,event_city,event_country,event_industry
+1f5a7,https://event1.com,Tech Summit,2024-09-10,San Francisco,USA,Technology
+3e2b4,https://event2.com,Health Expo,2024-10-05,New York,USA,Healthcare
+6d1c9,https://event3.com,Finance Conference,2024-11-15,London,UK,Finance
+8b3a2,https://event4.com,Oil & Gas Meet,2024-12-01,Dubai,UAE,Oil & Gas
+4c7f6,https://event5.com,Renewable Energy Forum,2024-09-20,Berlin,Germany,Energy
+7e9d1,https://event6.com,AI & ML Conference,2024-11-01,Tokyo,Japan,Technology
+5a8e3,https://event7.com,Automotive Expo,2024-10-15,Detroit,USA,Automotive
+2b4c6,https://event8.com,Blockchain Summit,2024-09-25,Zug,Switzerland,Finance
+9d7a2,https://event9.com,Agriculture Fair,2024-10-10,Paris,France,Agriculture
+6f8b1,https://event10.com,Education Symposium,2024-09-30,Sydney,Australia,Education
+1a9e7,https://event11.com,IT Symposium,2024-09-30,Hong Kong,Hong Kong,Technology
