@@ -41,7 +41,6 @@ def getFilteredDataMultiple(filters):
     companies = filtered_items_by_companies
     employees = filtered_items_by_employees
 
-    print(events, companies)
     filteredItems = {
         "events_info": events,
         "company_info": companies,
@@ -121,8 +120,6 @@ def getDataUsingEventAttendees(data):
     employees_df = df_map["employee_info"]
     events_df = df_map["events_info"]
 
-    print(companies,"TAHA MAZARI")
-
     # instantiate event attendees df
     event_attendees_df = df_map['event_attendees']
     filtered_event_attendees_df = pd.DataFrame()
@@ -132,12 +129,19 @@ def getDataUsingEventAttendees(data):
     company_urls = get_entity_urls(companies, "company_url")
     employee_company_urls = get_entity_urls(employees, "company_url")
 
-    print("AKAKAK",events)
-
     combined_employee_and_company_urls = handleCompanyAndEmployeeUrls(company_urls, employee_company_urls)
 
+    print("sss",event_urls, combined_employee_and_company_urls)
+
+
+    # if(len(combined_employee_and_company_urls) == 0):
+    #     return {
+    #         "events_info": [],
+    #         "company_info": [],
+    #         "employee_info": []
+    #     }
     if(len(event_urls) > 0 and len(combined_employee_and_company_urls) == 0):
-        print("CAME HERE 1")
+        print("CAME HERE 1", event_urls)
         filtered_event_attendees_df = event_attendees_df[event_attendees_df["event_url"].isin(event_urls)]
         event_attendees_company_urls = filtered_event_attendees_df["company_url"].tolist()
 
@@ -149,11 +153,12 @@ def getDataUsingEventAttendees(data):
             "company_info": filtered_companies.to_dict(orient="records"),
             "employee_info": filtered_employees.to_dict(orient="records")
         }
-    elif(len(combined_employee_and_company_urls) > 0 and len(event_urls) == 0):
-        print("CAME HERE 2")
+    if(len(combined_employee_and_company_urls) > 0 and len(event_urls) == 0):
+        print("CAME HERE 2", company_urls  , employee_company_urls)
         filtered_event_attendees_df = event_attendees_df[event_attendees_df["company_url"].isin(combined_employee_and_company_urls)]
         event_attendees_event_urls = filtered_event_attendees_df["event_url"].tolist()
 
+        print("MAZZZARI",combined_employee_and_company_urls, filtered_event_attendees_df, event_attendees_event_urls)
         filtered_events = events_df[events_df["event_url"].isin(event_attendees_event_urls)]
         
         # this line is a game changer
@@ -165,13 +170,13 @@ def getDataUsingEventAttendees(data):
             "company_info": filtered_companies.to_dict(orient="records"),
             "employee_info": filtered_employees.to_dict(orient="records")
         }
-    elif(len(event_urls) > 0 and len(combined_employee_and_company_urls) > 0):
-        print("CAME HERE 3")
+    if(len(event_urls) > 0 and len(combined_employee_and_company_urls) > 0):
+        print("CAME HERE 3", combined_employee_and_company_urls, event_urls)
         # Merge DataFrames to find matching event URLs
         merged_events = pd.merge(event_attendees_df, events, left_on='event_url', right_on='event_url', how='inner')
 
         # Merge the result with companies to find matching company URLs
-        merged_all = pd.merge(merged_events, companies, left_on='company_url', right_on='company_url', how='inner')
+        merged_all = pd.merge(merged_events, companies_df, left_on='company_url', right_on='company_url', how='inner')
 
         # get merged entity urls
         merged_event_urls = get_entity_urls(merged_all, "event_url")
@@ -191,8 +196,6 @@ def getDataUsingEventAttendees(data):
             "company_info": filtered_companies.to_dict(orient="records"),
             "employee_info": final_employees.to_dict(orient="records")
         }
-
-    return True
 
 data = getFilteredDataMultiple(
 {
